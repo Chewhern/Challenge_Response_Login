@@ -10,3 +10,8 @@ To make it work either you make sure the libsodium dll(determine by your system 
 is in the application folder or in the correct default nuget folder.
 
 The application can be run smoothly otherwise, you will be finding yourself debugging and wondering what's wrong.
+
+If you have libsodium already pre-installed in your device with the default nuget folder path, the
+setenvironmentvariablechecker can be turn to true.
+Else you will need to find the "packages" folder and determine your system architecture or cpu architecture,
+then put the corresponding libsodium dll into your application folder.
